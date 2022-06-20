@@ -1,0 +1,7 @@
+{
+  "name": "linkedin-clone-mobo",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
