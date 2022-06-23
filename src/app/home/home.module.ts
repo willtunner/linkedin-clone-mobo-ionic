@@ -4,6 +4,7 @@ import { FormsModule } from '@angular/forms';
 import { IonicModule } from '@ionic/angular';
 
 import { AdvertisingComponent } from './components/advertising/advertising.component';
+import { AllPostsComponent } from './components/all-posts/all-posts.component';
 import { HeaderComponent } from './components/header/header.component';
 import { ProfileSummaryComponent } from './components/profile-summary/profile-summary.component';
 import { ModalComponent } from './components/start-post/modal/modal.component';
@@ -13,13 +14,18 @@ import { HomePage } from './home.page';
 
 @NgModule({
   imports: [
-
-
 CommonModule,
     FormsModule,
     IonicModule,
     HomePageRoutingModule
   ],
-  declarations: [HomePage, HeaderComponent, ProfileSummaryComponent, AdvertisingComponent, StartPostComponent, ModalComponent]
+  declarations: [
+    HomePage,
+    HeaderComponent,
+    ProfileSummaryComponent,
+    AdvertisingComponent,
+    StartPostComponent,
+    ModalComponent,
+    AllPostsComponent]
 })
 export class HomePageModule {}
