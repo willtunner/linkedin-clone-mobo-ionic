@@ -9,6 +9,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { ProfileSummaryComponent } from './components/profile-summary/profile-summary.component';
 import { ModalComponent } from './components/start-post/modal/modal.component';
 import { StartPostComponent } from './components/start-post/start-post.component';
+import { TabsComponent } from './components/tabs/tabs.component';
 import { HomePageRoutingModule } from './home-routing.module';
 import { HomePage } from './home.page';
 
@@ -26,6 +27,7 @@ CommonModule,
     AdvertisingComponent,
     StartPostComponent,
     ModalComponent,
-    AllPostsComponent]
+    AllPostsComponent,
+    TabsComponent]
 })
 export class HomePageModule {}

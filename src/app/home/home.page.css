@@ -1,11 +1,22 @@
 :host {
-  justify-content: start;
+  display: flex;
+  justify-content: space-between;
+  min-height: 100vh;
+  flex-direction: column;
 }
 
 .content-container {
   display: flex;
   width: 1128px;
   margin: 40px auto 0;
+}
+
+@media (max-width: 1200px) {
+  .content-container {
+    width: auto;
+    justify-content: center;
+    margin-top: 0;
+  }
 }
 
 app-all-posts, .post-divider {
